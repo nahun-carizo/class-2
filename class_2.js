@@ -2,8 +2,9 @@ class CEmpleado {
     constructor(nombre, anioIngreso, salario, direccion) {
       this.nombre = nombre;
       this.Ingreso = Ingreso;
-      this.salario = salario;
       this.direccion = direccion;
+      this.salario = salario;
+     
     }
   
     calcularAntiguedad() {
